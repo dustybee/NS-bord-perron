@@ -4,3 +4,6 @@ create a config.js file in the _scripts_ folder. In there create a config object
 **username** - _this would be your email_
 
 **password** - _this is the password send to you via email by NS_
+
+#please note
+the use of crossorigin.me is not reccomended. I will create my own application which will convert and cache the data from the NS api.
