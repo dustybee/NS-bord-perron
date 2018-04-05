@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: NS Sans,Segoe UI,Myriad,Verdana,sans-serif;
+    color: #003082;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.container {
+    font-weight: 500;
+    font-size: 6vw;
+    display: grid;
+    grid-gap: 10px;
+    grid-template:
+    "top-header"
+    "train-destination" 
+    "comment"
+    "train-stops"
+    "next-train"
+}
+
+.top-header {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-area: top-header;
+    display: grid;
+    grid-template-columns: 2fr 1fr 12vw;
+    grid-template-rows: 1fr;
+}
+
+.time {
+    position: relative;
+    justify-self: flex-start;
+}
+
+.TreinSoort {
+    position: relative;
+    justify-self: flex-end;
+    margin-right: 2vw;
+}
+.ns-logo {
+    position: relative;
+    margin-top: 3vw;
+    width: 12vw;
+}
+.EindBestemming { 
+    font-size: 8vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-area: train-destination;
+    margin-bottom: 2vw;
+}
+
+.ReisTip {
+    height: 5vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-area: comment;
+    color: rgb(189, 51, 51);
+    font-size: 4vw;
+}
+.RouteText {
+    height: 17vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-area: train-stops;
+    font-size: 4vw;
+}
+.next-train {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 5vw;
+    color: white;
+    background-color: #003082;
+    grid-area: next-train;
+}
+
+.VertrekVertragingTekst {
+    color: rgb(189, 51, 51);
+}
+
+.TreinSoortTekstKlein {
+    font-size: 3vw;
+}
+
+hr {
+    padding-left: 0px;
+    margin-left: 0px;
+}
