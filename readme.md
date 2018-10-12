@@ -1,2 +1,4 @@
 # To use it yourself
-create a config.js file in the _scripts_ folder. In there create a config object with the following variables:
+Just open the index.html and it works!
+
+to change the station, hit F2 on the keyboard and a little alert box will pop up asking you for the station ID.
