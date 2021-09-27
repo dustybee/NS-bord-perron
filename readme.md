@@ -5,4 +5,4 @@ to change the station, hit F2 on the keyboard and a little alert box will pop up
 
 # Demo!
 
-https://idustybee.net/ns-bord-perron
+https://snvs.net/projects/ns-bord-perron/
